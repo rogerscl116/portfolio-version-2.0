@@ -1,21 +1,45 @@
-import React from 'react';
-import { Navbar, Nav } from 'react-bootstrap';
+import React from "react";
+import { capitalizeFirstLetter } from "../../utils/helpers";
 
-function Navigation() {
+function Nav(props) {
+
+  const handleClick = () => {
+    console.log("click handled")
+  }
 
   return (
-<header>
-  <Navbar bg="dark" variant="dark" sticky="top">
-    <Navbar.Brand href="/about">Charity Rogers</Navbar.Brand>
-    <Nav className="me-auto d-flex justify-content-end">
-      <Nav.Link href="/about">About Me</Nav.Link>
-      <Nav.Link href="/portfolio">Portfolio</Nav.Link>
-      <Nav.Link href="/contact">Contact</Nav.Link>
-      <Nav.Link href="/resume">Resume</Nav.Link>
-    </Nav>
-  </Navbar>
-</header>
+    <header className="flex-row px-1">
+      <h2>
+        <a href="/">
+          Charity Rogers
+        </a>
+      </h2>
+      <nav>
+        <ul className="flex-row">
+          <li className="mx-2">
+            <a href="#about" onClick={() => handleClick()}>
+              About Me
+            </a>
+          </li>
+          <li className={"mx-2"}>
+          <a href="#portfolio" onClick={() => handleClick()}>
+              Portfolio
+            </a>
+          </li>
+          <li className={"mx-2"}>
+          <a href="#contact" onClick={() => handleClick()}>
+              Contact
+            </a>
+          </li>
+          <li className={"mx-2"}>
+          <a href="#resume" onClick={() => handleClick()}>
+              Resume
+            </a>
+          </li>
+       </ul>
+      </nav>
+    </header>
   );
 }
 
-export default Navigation;
+export default Nav; 
