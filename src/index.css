@@ -9,9 +9,10 @@ body {
   color: white;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+main {
+	margin: 0 auto;
+	max-width: 90%;
+  padding: 50px 30px;
 }
 
 .selfie {
