@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Changa:wght@300&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
 :root {
   --primary-white: white;
   --primary-gray: lightgray;
   --primary-orange: #d88758;
-  --primary-dark: rgba(255,255,255, 0);
+  --primary-dark: rgba(255, 0, 0, 0);
+  --primary-black: black;
+  --primary-red: red;
 }
 
 main {
@@ -29,7 +31,7 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: .1em;
-  font-family: 'Poiret One', cursive !important;
+  font-family: 'Shadows Into Light', cursive !important;
 }
 
 /************ NAV ************/
@@ -46,7 +48,7 @@ nav ul li {
 }
 
 .navbar-brand {
-  color: var(--primary-gray) !important;
+  color: var(--primary-orange) !important;
   padding: 0.125rem;
 }
 
@@ -64,7 +66,8 @@ nav ul li {
 .navbar-nav > li > a:hover {
   border-top: 0.1875rem solid var(--primary-orange);
 }
-/********** ABOUT **********/
+
+/************ ABOUT ************/
 
 .selfie {
   height: 15%;
@@ -72,3 +75,36 @@ nav ul li {
   border-radius: 1%;
 }
 
+/************ HEADER ************/
+
+.header-wrapper {
+  position: relative;
+  background: url(../src/naturebystef.jpg) no-repeat;
+  background-size: cover;
+  background-position:center;
+  height: 90vh;
+}
+
+.main-info {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main-info h1 {
+  font-weight: bolder;
+  color: var(--primary-black);
+  text-transform: uppercase;
+}
+
+.typed-text {
+  font-size: 2rem;
+  color: var(--primary-white);
+}

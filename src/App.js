@@ -1,17 +1,20 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Nav from './components/Nav';
 import About from './components/About';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './components/Header';
+
 
 function App() {
 
   return (
     <div>
-      <Nav>
-      </Nav>
-      <main>
+      <Nav />
+      <Header>
+       {/* <main>
         <About></About>     
-      </main>
+      </main> */}
+      </Header>
     </div>
   );
 }
