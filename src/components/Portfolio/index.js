@@ -21,8 +21,10 @@ function Portfolio () {
               <ProjectCards key={project.id} image={project.image} name={project.name} github={project.github} deploy={project.deploy} topics={project.topics}/>
             ))}
           </Wrapper>
+          <div>
+          <a href="https://icons8.com/icon/15152/launch">Launch icon by Icons8</a>
+        </div>
         </section>
-
     );
   }
 
