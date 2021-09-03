@@ -1,14 +1,16 @@
 import React from 'react';
-import Navigation from './components/Navigation';
+import Nav from './components/Nav';
 import About from './components/About';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
 
   return (
     <div>
-      <Navigation></Navigation>
+      <Nav>
+      </Nav>
       <main>
-        <About></About>
+        <About></About>     
       </main>
     </div>
   );
