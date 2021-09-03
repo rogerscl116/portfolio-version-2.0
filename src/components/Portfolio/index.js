@@ -22,6 +22,7 @@ function Portfolio () {
             ))}
           </Wrapper>
           <div>
+          <a href="https://icons8.com/icon/AZOZNnY73haj/github">GitHub icon by Icons8</a><br />
           <a href="https://icons8.com/icon/15152/launch">Launch icon by Icons8</a>
         </div>
         </section>
