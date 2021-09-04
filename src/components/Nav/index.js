@@ -15,9 +15,8 @@ import About from "../About";
 import Portfolio from "../Portfolio";
 import ContactForm from "../Contact";
 
-export const Nav = () => {
+function Nav() {
   return (
-
 <Router>
 <nav className="navbar navbar-expand-lg navbar-light bg-dark">
   <Link to="/" className="navbar-brand">Charity Rogers</Link>

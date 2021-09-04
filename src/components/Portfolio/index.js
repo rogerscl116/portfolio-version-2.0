@@ -8,7 +8,6 @@ function Wrapper(props) {
 }
 
 function Portfolio () {  
-
     return (
         <section>
           <div className="project">
