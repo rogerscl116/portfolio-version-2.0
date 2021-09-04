@@ -14,10 +14,10 @@ import Header from "../Header";
 import About from "../About";
 import Portfolio from "../Portfolio";
 import ContactForm from "../Contact";
+import Resume from "../Resume";
 
-export const Nav = () => {
+function Nav() {
   return (
-
 <Router>
 <nav className="navbar navbar-expand-lg navbar-light bg-dark">
   <Link to="/" className="navbar-brand">Charity Rogers</Link>
@@ -53,9 +53,9 @@ export const Nav = () => {
     <Route path="/contact">
       <ContactForm />
     </Route>
-    {/*<Route path="/resume">
+    <Route path="/resume">
       <Resume />
-    </Route> */}
+    </Route>
     <Route path="/">
       <Header />
     </Route>
