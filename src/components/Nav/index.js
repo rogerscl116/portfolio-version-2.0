@@ -14,6 +14,7 @@ import Header from "../Header";
 import About from "../About";
 import Portfolio from "../Portfolio";
 import ContactForm from "../Contact";
+import Resume from "../Resume";
 
 function Nav() {
   return (
@@ -52,9 +53,9 @@ function Nav() {
     <Route path="/contact">
       <ContactForm />
     </Route>
-    {/*<Route path="/resume">
+    <Route path="/resume">
       <Resume />
-    </Route> */}
+    </Route>
     <Route path="/">
       <Header />
     </Route>
