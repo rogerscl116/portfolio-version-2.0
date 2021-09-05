@@ -79,7 +79,7 @@ function Resume() {
           >
             Download Resume
           </a>
-    </div>
+      </div>
     </section>
   );
 }
