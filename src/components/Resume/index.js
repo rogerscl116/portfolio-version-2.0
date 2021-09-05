@@ -3,7 +3,7 @@ import React from "react";
 function Resume() {
   return (
     <section className="container">
-      <h2 className="top-title">Resume</h2>
+      <h1 className="title">Resume</h1>
       <hr></hr>
 
       <div>
@@ -73,15 +73,6 @@ function Resume() {
       </div>
 
       <div>
-        <p className="mt-5">
-            <a href="https://www.linkedin.com/in/charity-rogers-a7115a11a/">
-              <img
-                src="https://img.icons8.com/fluent/48/000000/linkedin.png"
-                alt="Charity's LinkedIn page"
-              />
-            </a>
-        </p>
-
           <a
             href=""
             className="link"

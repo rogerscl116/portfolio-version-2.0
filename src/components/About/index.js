@@ -3,8 +3,8 @@ import selfie from '../../selfie03.JPG';
 
 function About() {
   return (
-    <section>
-      <h1 id="about-title">A Little About Me</h1>
+    <section className="container">
+      <h1 className="title">A Little About Me</h1>
       <hr></hr>
       <div>
         <img src={selfie} className="selfie" alt="Charity Rogers" />
