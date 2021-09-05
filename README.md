@@ -9,7 +9,7 @@ My single-page application portfolio created with React.
 Deployed application: https://rogerscl116.github.io/portfolio-version-2.0/
 
 ### Screenshot
-![Portfolio Version 2.0 Home]()
+![Portfolio Version 2.0 Home](./src/portfoliov2home.jpg)
 
 ## Table of Contents
  * [Installation](#installation)
