@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Deep Thoughts",
-        "image": "https://github.com/rogerscl116/deep-thoughts/blob/main/client/src/deepthoughtshome.jpg?raw=true",
+        "image": "https://github.com/rogerscl116/deep-thoughts/raw/main/client/src/deepthoughtshome.jpg",
         "github": "https://github.com/rogerscl116/deep-thoughts/",
         "deploy": "https://deep-thoughts826103.herokuapp.com/",
         "topics": "MongoDB, Express.js, React, Node.js, GraphQL, Apollo Server, JSON Web Tokens, Jwt-decode, Faker, Nodemon"
