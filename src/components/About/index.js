@@ -3,11 +3,12 @@ import selfie from '../../selfie03.JPG';
 
 function About() {
   return (
-    <section>
-      <h1 id="about">Charity Rogers</h1>
+    <section className="container">
+      <h1 className="title">A Little About Me</h1>
+      <hr></hr>
       <div>
         <img src={selfie} className="selfie" alt="Charity Rogers" />
-        <p>Curabitur sed elit maximus, mollis enim quis, eleifend sapien. Nunc sit amet justo lacus. Maecenas blandit vel dolor id aliquam. Cras et mollis arcu, sed pretium elit. Aenean semper malesuada erat, a vulputate nisi condimentum at. Nunc sagittis blandit quam at malesuada. Fusce condimentum, dui eu accumsan commodo, turpis elit mattis libero, viverra fringilla turpis mi sit amet massa. Maecenas eu porta lectus.
+        <p>My name is Charity Rogers. I was born in southern Illinois where I graduated from high school and community college. Some of the things I love are family, friends, animals, music, computers, and video games. I started working over 18 years ago, having great experience in customer service and electronics. One of my biggest passions is working on computers so I decided to get into web development.
         </p>
       </div>
     </section>

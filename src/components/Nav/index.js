@@ -10,7 +10,7 @@ import {
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 
-import Header from "../Header";
+import Header from "../Home";
 import About from "../About";
 import Portfolio from "../Portfolio";
 import ContactForm from "../Contact";

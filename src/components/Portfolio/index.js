@@ -9,9 +9,9 @@ function Wrapper(props) {
 
 function Portfolio () {  
     return (
-        <section>
+        <section className="container">
           <div className="project">
-            <h2 className="title">My Work</h2>
+            <h1 className="title">My Work</h1>
             <hr></hr>
           </div>
 
@@ -20,10 +20,6 @@ function Portfolio () {
               <ProjectCards key={project.id} image={project.image} name={project.name} github={project.github} deploy={project.deploy} topics={project.topics}/>
             ))}
           </Wrapper>
-          <div>
-          <a href="https://icons8.com/icon/AZOZNnY73haj/github">GitHub icon by Icons8</a><br />
-          <a href="https://icons8.com/icon/15152/launch">Launch icon by Icons8</a>
-        </div>
         </section>
     );
   }

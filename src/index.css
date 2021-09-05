@@ -3,6 +3,7 @@
 :root {
   --primary-white: white;
   --primary-gray: lightgray;
+  --primary-darkgray: rgb(58, 58, 58);
   --primary-orange: #d88758;
   --primary-dark: rgba(255, 0, 0, 0);
   --primary-black: black;
@@ -32,6 +33,12 @@ body {
   font-size: 18px;
   letter-spacing: .1em;
   font-family: 'Shadows Into Light', cursive !important;
+  background-color: var(--primary-orange) !important;
+}
+
+input, textarea {
+  background-color: var(--primary-gray) !important;
+  border: 1px solid var(--primary-black) !important;
 }
 
 /************ NAV ************/
@@ -67,6 +74,13 @@ nav ul li {
   border-top: 0.1875rem solid var(--primary-orange);
 }
 
+/************ TOP TITLES ************/
+
+.title {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
 /************ ABOUT ************/
 
 .selfie {
@@ -75,9 +89,9 @@ nav ul li {
   border-radius: 1%;
 }
 
-/************ HEADER ************/
+/************ HOME ************/
 
-.header-wrapper {
+.home-wrapper {
   position: relative;
   background: url(../src/naturebystef.jpg) no-repeat;
   background-size: cover;
@@ -107,4 +121,80 @@ nav ul li {
 .typed-text {
   font-size: 2rem;
   color: var(--primary-white);
+}
+
+/************ PROJECTS ************/
+
+.wrapper {
+  padding: 10px;
+  height: 100%;
+  flex-flow: row wrap;
+  display: flex;
+  justify-content: space-around;
+  align-content: flex-start;
+  overflow: auto;
+}
+
+.card {
+  border-radius: 5px;
+  height: 400px;
+  margin: 2rem;
+  position: relative;
+  width: 400px;
+}
+
+.card .img-container {
+  height: 75%;
+  overflow: hidden;
+  text-align: center;
+  border-radius: 5px 5px 0 0;
+}
+
+.card .img-container img {
+  width: 100%;
+  padding: 25px;
+  margin-bottom: 20px;
+}
+
+.card .content {
+  font-size: 18px;
+  color: var(--primary-darkgray);
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-title{
+  margin-top: 10px;
+  color: var(--primary-black);
+}
+
+.project-title {
+  color: var(--cultured);
+  background-color: var(--white);
+}
+
+.project-icons-container {
+  background-color: var(--white);
+}
+
+.project-icon {
+  background-color: var(--white);
+  padding: 5px;
+}
+
+#topics {
+  font-size: small !important;
+  font-style: italic !important;
+}
+
+/************ FOOTER ************/
+
+.footer { 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+} 
+
+.icon {
+  padding: 10px;
 }

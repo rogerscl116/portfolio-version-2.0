@@ -2,11 +2,11 @@ import React from 'react'
 import Typed from 'react-typed';
 
 
-function Header() {
+function Home() {
     return (
-        <div className="header-wrapper">
+        <div className="home-wrapper">
             <div className="main-info">
-                <h1>My Name Is Charity</h1>
+                <h1>Hello, I am Charity</h1>
                 <Typed 
                   className="typed-text"
                   strings={["Web Developer", "Web Designer"]}
@@ -19,4 +19,4 @@ function Header() {
     )
 }
 
-export default Header;
+export default Home;
