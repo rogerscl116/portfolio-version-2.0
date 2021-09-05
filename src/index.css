@@ -131,6 +131,7 @@ nav ul li {
 }
 
 .card {
+  border: 2px solid var(--primary-darkgray) !important;
   border-radius: 5px;
   height: 400px;
   margin: 2rem;
@@ -149,6 +150,7 @@ nav ul li {
   width: 100%;
   padding: 25px;
   margin-bottom: 20px;
+  background-color: var(--primary-gray);
 }
 
 .card .content {
@@ -184,7 +186,10 @@ input, textarea {
 .footer { 
   display: flex; 
   align-items: center; 
-  justify-content: center; 
+  justify-content: center;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
 } 
 
 .icon {
