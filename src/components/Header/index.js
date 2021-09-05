@@ -6,7 +6,7 @@ function Header() {
     return (
         <div className="header-wrapper">
             <div className="main-info">
-                <h1>My Name Is Charity</h1>
+                <h1>Hello, I am Charity</h1>
                 <Typed 
                   className="typed-text"
                   strings={["Web Developer", "Web Designer"]}

@@ -69,6 +69,11 @@ nav ul li {
 
 /************ ABOUT ************/
 
+#about-title {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
 .selfie {
   height: 15%;
   width: 15%;
