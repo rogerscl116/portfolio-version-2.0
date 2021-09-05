@@ -7,7 +7,6 @@
   --primary-orange: #d88758;
   --primary-dark: rgba(255, 0, 0, 0);
   --primary-black: black;
-  --primary-red: red;
 }
 
 main {
@@ -34,11 +33,6 @@ body {
   letter-spacing: .1em;
   font-family: 'Shadows Into Light', cursive !important;
   background-color: var(--primary-orange) !important;
-}
-
-input, textarea {
-  background-color: var(--primary-gray) !important;
-  border: 1px solid var(--primary-black) !important;
 }
 
 /************ NAV ************/
@@ -81,14 +75,6 @@ nav ul li {
   margin-left: 20px;
 }
 
-/************ ABOUT ************/
-
-.selfie {
-  height: 15%;
-  width: 15%;
-  border-radius: 1%;
-}
-
 /************ HOME ************/
 
 .home-wrapper {
@@ -121,6 +107,15 @@ nav ul li {
 .typed-text {
   font-size: 2rem;
   color: var(--primary-white);
+}
+
+/************ ABOUT ************/
+
+.selfie {
+  padding: 10px;
+  height: 15%;
+  width: 15%;
+  border-radius: 50%;
 }
 
 /************ PROJECTS ************/
@@ -163,28 +158,25 @@ nav ul li {
   text-align: center;
 }
 
-.card-title{
+#card-title{
   margin-top: 10px;
   color: var(--primary-black);
 }
 
-.project-title {
-  color: var(--cultured);
-  background-color: var(--white);
-}
-
-.project-icons-container {
-  background-color: var(--white);
-}
-
-.project-icon {
-  background-color: var(--white);
+#project-icon {
   padding: 5px;
 }
 
 #topics {
-  font-size: small !important;
-  font-style: italic !important;
+  font-size: small;
+  font-style: italic;
+}
+
+/************ CONTACT ************/
+
+input, textarea {
+  background-color: var(--primary-gray) !important;
+  border: 1px solid var(--primary-darkgray) !important;
 }
 
 /************ FOOTER ************/
