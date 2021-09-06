@@ -9,7 +9,7 @@ function Resume() {
       <div>
         <div className="mt-5">
           <h2 className="top-title">Charity Rogers</h2>
-          <ul>
+          <ul className="list-unstyled">
             <li>
               Enthusiastic web developer eager to contribute to team success through hard work, attention to detail, and excellent organizational skills. 
             </li>
