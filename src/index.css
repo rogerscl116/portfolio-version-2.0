@@ -50,6 +50,7 @@ nav ul li {
 
 .navbar-brand {
   color: var(--primary-orange) !important;
+  margin-left: 0.25rem;
   padding: 0.125rem;
 }
 
