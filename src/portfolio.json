@@ -1,6 +1,14 @@
 [
     {
         "id": 1,
+        "name": "Chore Wallet",
+        "image": "",
+        "github": "https://github.com/rogerscl116/ChoreWallet/",
+        "deploy": "https://chore-wallet924376.herokuapp.com/",
+        "topics": "MongoDB, Express.js, React, Node.js, GraphQL, Apollo Server, JSON Web Tokens, Jwt-decode, Nodemon, React-bootstrap, React-calendar, Moment.js"
+    },
+    {
+        "id": 2,
         "name": "Deep Thoughts",
         "image": "https://github.com/rogerscl116/deep-thoughts/raw/main/client/src/deepthoughtshome.jpg",
         "github": "https://github.com/rogerscl116/deep-thoughts/",
@@ -8,7 +16,7 @@
         "topics": "MongoDB, Express.js, React, Node.js, GraphQL, Apollo Server, JSON Web Tokens, Jwt-decode, Faker, Nodemon"
     },
     {
-        "id": 2,
+        "id": 3,
         "name": "Budget Tracker",
         "image": "https://github.com/rogerscl116/budget-tracker-pwa/raw/main/public/images/budget-tracker-screenshot.jpg",
         "github": "https://github.com/rogerscl116/budget-tracker-pwa/",
@@ -16,7 +24,7 @@
         "topics": "PWA, IndexedDB, Node.js, Express.js, MongoDB, Mongoose"
     },
     {
-        "id": 3,
+        "id": 4,
         "name": "Note Taker",
         "image": "https://github.com/rogerscl116/express-note-taker/raw/main/public/assets/images/note-taker-screenshot1.jpg",
         "github": "https://github.com/rogerscl116/express-note-taker/",
@@ -24,7 +32,7 @@
         "topics": "Express.js, Node.js"
     },
     {
-        "id": 4,
+        "id": 5,
         "name": "Pizza Hunt",
         "image": "https://github.com/rogerscl116/pizza-hunt/raw/main/public/assets/images/pizzahunthome.jpg",
         "github": "https://github.com/rogerscl116/pizza-hunt/",
@@ -32,7 +40,7 @@
         "topics": "MongoDB, Mongoose, Express.js, Node,js"
     },
     {
-        "id": 5,
+        "id": 6,
         "name": "Helpful Gaming",
         "image": "https://github.com/rogerscl116/Helpful-Gaming/raw/main/assets/photos/screenshot.jpg",
         "github": "https://github.com/rogerscl116/Helpful-Gaming/",
@@ -40,7 +48,7 @@
         "topics": "HTML, CSS, JavaScript, Server-side APIs, Foundation, jQuery"
     },
     {
-        "id": 6,
+        "id": 7,
         "name": "Weather Dashboard",
         "image": "https://github.com/rogerscl116/the-weather-dashboard/raw/main/assets/images/weather-screenshot.jpg",
         "github": "https://github.com/rogerscl116/the-weather-dashboard/",
