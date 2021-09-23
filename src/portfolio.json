@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Chore Wallet",
-        "image": "",
+        "image": "https://github.com/rogerscl116/ChoreWallet/blob/main/client/src/assets/chorewallet-homepage.jpg?raw=true",
         "github": "https://github.com/rogerscl116/ChoreWallet/",
         "deploy": "https://chore-wallet924376.herokuapp.com/",
         "topics": "MongoDB, Express.js, React, Node.js, GraphQL, Apollo Server, JSON Web Tokens, Jwt-decode, Nodemon, React-bootstrap, React-calendar, Moment.js"
